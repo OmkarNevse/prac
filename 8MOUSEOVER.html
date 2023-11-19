@@ -1,0 +1,40 @@
+<html> 
+<body style="text-align:center;" id="bd">
+
+        <p><H2> <a onmouseover="changeColor1()" onmouseout="mouseout()"> green</a> <br><br>
+    
+        <a onmouseover="changeColor2()" onmouseout="mouseout()"> red</a> <br><br>
+    
+        <a onmouseover="changeColor3()" onmouseout="mouseout()"> cyan</a> <br><br> 
+
+        <input type="text" onfocus="changeColor4()" onmouseout="mouseout()" value="Purple"> </a>
+    
+        </p></H2>
+    
+        <script>
+    
+        function changeColor1()
+        {
+            document.getElementById("bd").style.backgroundColor = "green";
+        } 
+        function changeColor2()
+        { 
+            document.getElementById("bd").style.backgroundColor = "red";
+        } 
+        function changeColor3() 
+        { 
+            document.getElementById("bd").style.backgroundColor = "cyan";
+        }   
+        function changeColor4()
+        { 
+            document.getElementById("bd").style.backgroundColor = "Purple";
+        }
+        function mouseout()
+        {
+            document.getElementById("bd").style.backgroundColor = "#fff";
+        }
+    
+        </script>
+    
+</body>
+</html>
