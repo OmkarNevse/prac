@@ -352,6 +352,8 @@ implement ExampleDialogListner");
  }
 }
 
+insert "android.nonFinalResIds=false" in gradle.properties
+create Menu folder in res for all three menu files
 
 Place ExampleDialog, Mainactivity in java folder
 Place layout_dialog.xml in layout folder
